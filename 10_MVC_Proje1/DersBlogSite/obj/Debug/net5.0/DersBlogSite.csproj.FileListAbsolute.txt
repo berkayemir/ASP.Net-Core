@@ -33,3 +33,6 @@ C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\10_MVC_Proje1\DersBlogSite\obj\D
 C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\10_MVC_Proje1\DersBlogSite\obj\Debug\net5.0\DersBlogSite.RazorTargetAssemblyInfo.cs
 C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\10_MVC_Proje1\DersBlogSite\obj\Debug\net5.0\DersBlogSite.Views.pdb
 C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\10_MVC_Proje1\DersBlogSite\obj\Debug\net5.0\DersBlogSite.csproj.CopyComplete
+C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\10_MVC_Proje1\DersBlogSite\obj\Debug\net5.0\Razor\Views\Hakkimizda\Index.cshtml.g.cs
+C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\10_MVC_Proje1\DersBlogSite\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\10_MVC_Proje1\DersBlogSite\obj\Debug\net5.0\Razor\Views\Dersler\Index.cshtml.g.cs
