@@ -1,0 +1,30 @@
+﻿@using MobilyaShowRoom.Models
+@{
+
+    Layout = "_Layout";
+}
+
+
+@{
+    Products product = ViewBag.Products;
+
+    <div class="w-75 mx-auto shadow-lg mt-4">
+        <div class="card text-center">
+            <div class="card-header">
+                @product.ID
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">@product.ProductName</h5>
+                <p class="card-text">@product.ProductDetail</p>
+                <p class="card-text fw-bold" style="color:blue">Fiyat=@product.Price</p>
+                <div class="d-flex justify-content-center align-items-center gap-3">
+                    <a href="@Url.ActionLink("index", "Home")" class="btn btn-primary">Home</a>
+                    <a href="@Url.ActionLink("index", "Home")" class="btn btn-primary">Add to Cart</a>
+                    <a href="@Url.ActionLink("index", "Product")" class="btn btn-primary">Product List</a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    }
