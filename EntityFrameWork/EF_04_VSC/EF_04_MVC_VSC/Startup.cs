@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,6 +25,7 @@ namespace EF_04_MVC_VSC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<EF_04_MVC_VSC.Models.KutuphaneSabahContext>(options=>options.UseSqlServer(Configuration.GetConnectionString(("KutuphaneConnection"))));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
