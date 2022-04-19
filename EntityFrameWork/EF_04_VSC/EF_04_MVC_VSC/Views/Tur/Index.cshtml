@@ -6,6 +6,8 @@
 
 
 <h1>Kitap Türleri</h1>
+<a asp-action="Create">Yeni Kitap Türü</a>
+
 
 <table class="table table-striped w-50">
     <thead>
@@ -24,7 +26,7 @@
                     <td>@tur.TurAd</td>
                     <td>
                         <a class="btn btn-sm btn-success" asp-action="Details" asp-route-id="@tur.Id" >Detaylar</a> 
-                        <a class="btn btn-sm btn-warning" asp-action="Action" asp-route-id="@tur.Id" >Düzenle</a> 
+                        <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@tur.Id" >Düzenle</a> 
                         <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@tur.Id" >Sil</a>
                     </td>
 

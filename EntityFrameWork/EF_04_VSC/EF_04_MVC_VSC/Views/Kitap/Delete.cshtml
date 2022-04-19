@@ -1,0 +1,21 @@
+@model EF_04_MVC_VSC.Models.Kitaplar
+
+@{
+    ViewData["Title"] = "Kitaplar";
+}
+
+
+<h1>Kitap  Sil</h1>
+
+<div >
+    <h4>Kitap İsmi</h4>
+    <h5>Kitap Isbn:</h5>
+    <p>@Model.Isbn</p>
+    <h5>Kitap Türü</h5>
+    <p>@Model.Ad</p>
+</div>
+<form asp-action="Delete">
+    <input type="hidden" name="" asp-for="Isbn">
+    <input type="submit" value="Kitap  Sil" class="bn btn-sm btn-danger">
+</form>
+<a asp-action="Index">Kitaplara Dön</a>

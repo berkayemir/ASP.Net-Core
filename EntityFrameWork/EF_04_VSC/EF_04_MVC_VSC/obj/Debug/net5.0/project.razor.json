@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_04_VSC\\EF_04_MVC_VSC\\Views\\Kitap\\Delete.cshtml",
+      "TargetPath": "Views\\Kitap\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_04_VSC\\EF_04_MVC_VSC\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -15649,13 +15654,43 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_04_VSC\\EF_04_MVC_VSC\\Views\\Kitap\\Details.cshtml",
+      "TargetPath": "Views\\Kitap\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_04_VSC\\EF_04_MVC_VSC\\Views\\Kitap\\Index.cshtml",
+      "TargetPath": "Views\\Kitap\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_04_VSC\\EF_04_MVC_VSC\\Views\\Tur\\Details.cshtml",
       "TargetPath": "Views\\Tur\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_04_VSC\\EF_04_MVC_VSC\\Views\\Kitap\\Edit.cshtml",
+      "TargetPath": "Views\\Kitap\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_04_VSC\\EF_04_MVC_VSC\\Views\\Tur\\Create.cshtml",
+      "TargetPath": "Views\\Tur\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_04_VSC\\EF_04_MVC_VSC\\Views\\Tur\\Index.cshtml",
       "TargetPath": "Views\\Tur\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_04_VSC\\EF_04_MVC_VSC\\Views\\Tur\\Delete.cshtml",
+      "TargetPath": "Views\\Tur\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_04_VSC\\EF_04_MVC_VSC\\Views\\Tur\\Edit.cshtml",
+      "TargetPath": "Views\\Tur\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

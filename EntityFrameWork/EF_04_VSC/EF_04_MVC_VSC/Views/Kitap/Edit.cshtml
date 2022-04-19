@@ -1,0 +1,23 @@
+@model EF_04_MVC_VSC.Models.Kitaplar
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 class="display-3">Kitap Düzenle</h1>
+<hr>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div class="form-group">
+                <label class="control-label" for="">Kitap Isbn</label>
+                <label class="control-label" asp-for="Isbn">@Model.Isbn</label> <br>
+                <label for="" class="control-label">Kitap İsmi</label>
+                <input type="text" class="form-control" asp-for="Ad">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Değişiklikleri Kaydet" class="btn btn-primary">
+            </div>
+        </form>
+    </div>
+</div>

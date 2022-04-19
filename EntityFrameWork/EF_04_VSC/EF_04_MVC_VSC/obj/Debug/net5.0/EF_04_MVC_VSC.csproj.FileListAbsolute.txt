@@ -146,3 +146,10 @@ C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\EntityFrameWork\EF_04_VSC\EF_04_
 C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\EntityFrameWork\EF_04_VSC\EF_04_MVC_VSC\obj\Debug\net5.0\EF_04_MVC_VSC.genruntimeconfig.cache
 C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\EntityFrameWork\EF_04_VSC\EF_04_MVC_VSC\obj\Debug\net5.0\Razor\Views\Tur\Index.cshtml.g.cs
 C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\EntityFrameWork\EF_04_VSC\EF_04_MVC_VSC\obj\Debug\net5.0\Razor\Views\Tur\Details.cshtml.g.cs
+C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\EntityFrameWork\EF_04_VSC\EF_04_MVC_VSC\obj\Debug\net5.0\Razor\Views\Kitap\Index.cshtml.g.cs
+C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\EntityFrameWork\EF_04_VSC\EF_04_MVC_VSC\obj\Debug\net5.0\Razor\Views\Tur\Edit.cshtml.g.cs
+C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\EntityFrameWork\EF_04_VSC\EF_04_MVC_VSC\obj\Debug\net5.0\Razor\Views\Kitap\Edit.cshtml.g.cs
+C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\EntityFrameWork\EF_04_VSC\EF_04_MVC_VSC\obj\Debug\net5.0\Razor\Views\Tur\Delete.cshtml.g.cs
+C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\EntityFrameWork\EF_04_VSC\EF_04_MVC_VSC\obj\Debug\net5.0\Razor\Views\Kitap\Delete.cshtml.g.cs
+C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\EntityFrameWork\EF_04_VSC\EF_04_MVC_VSC\obj\Debug\net5.0\Razor\Views\Tur\Create.cshtml.g.cs
+C:\Users\Web ve Mobil Prog\Desktop\ASP.Net-Core\EntityFrameWork\EF_04_VSC\EF_04_MVC_VSC\obj\Debug\net5.0\Razor\Views\Kitap\Details.cshtml.g.cs

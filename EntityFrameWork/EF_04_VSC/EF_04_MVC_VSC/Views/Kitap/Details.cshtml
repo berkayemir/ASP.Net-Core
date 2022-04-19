@@ -1,0 +1,23 @@
+@model EF_04_MVC_VSC.Models.Kitaplar
+
+@{
+    ViewData["Title"] = "Kitap Detayları";
+}
+
+
+<h1>Kitap Detayları</h1>
+
+<div >
+    <h4>Kitap </h4>
+    <h5>Kitap ISBN:</h5>
+    <p>@Model.Isbn</p>
+    <h5>Kitap İsmi</h5>
+    <p>@Model.Ad</p>
+    <h5>Kitap Yazarı</h5>
+    <p>@Model.Yazar</p>
+    <h5>Kitap Stok Sayisi</h5>
+    <p>@Model.Stok</p>
+    <h5>Kitap Yayınevi</h5>
+    <p>@Model.YayinEvi</p>
+</div>
+<a asp-action="Index">Kitap Sayfasına Dön</a>

@@ -1,0 +1,50 @@
+@model List<EF_04_MVC_VSC.Models.Kitaplar>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Kitaplar</h1>
+
+<table class="table table-striped w-100">
+    <thead>
+        <tr>
+            <th>Kitap ISBN </th>
+            <th>Kitap İsim</th>
+            <th>Sayfa Sayisi</th>
+            <th>Stok</th>
+            <th>Tür</th>
+            <th>Yazar</th>
+            <th>Yayın Evi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var kitap in Model)
+            {   
+                <tr>
+                    <td>@kitap.Isbn</td>
+                    <td>@kitap.Ad</td>
+                    <td>@kitap.SayfaSayisi</td>
+                    <td>@kitap.Stok</td>
+                    <td>@kitap.TurId</td>
+                    <td>@kitap.YazarId</td>
+                    <td>@kitap.YayinEviId</td>
+
+
+                    <td>
+                        <a class="btn btn-sm btn-success" asp-action="Details" asp-route-id="@kitap.Isbn" >Detaylar</a> 
+                        <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@kitap.Isbn" >Düzenle</a> 
+                        <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@kitap.Isbn" >Sil</a>
+                    </td>
+
+                </tr>
+            }
+        }
+
+    </tbody>
+
+
+
+</table>
