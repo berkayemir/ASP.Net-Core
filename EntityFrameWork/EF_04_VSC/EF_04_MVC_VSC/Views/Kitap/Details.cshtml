@@ -1,5 +1,6 @@
 @model EF_04_MVC_VSC.Models.Kitaplar
 
+
 @{
     ViewData["Title"] = "Kitap Detayları";
 }
@@ -10,14 +11,14 @@
 <div >
     <h4>Kitap </h4>
     <h5>Kitap ISBN:</h5>
-    <p>@Model.Isbn</p>
+    <p>@Model.Isbn</p>  <hr>
     <h5>Kitap İsmi</h5>
-    <p>@Model.Ad</p>
+    <p>@Model.Ad</p>    <hr>
     <h5>Kitap Yazarı</h5>
-    <p>@Model.Yazar</p>
+    <p>@Model.Yazar.AdSoyad</p> <hr>
     <h5>Kitap Stok Sayisi</h5>
-    <p>@Model.Stok</p>
+    <p>@Model.Stok</p> <hr>
     <h5>Kitap Yayınevi</h5>
-    <p>@Model.YayinEvi</p>
+    <p>@Model.YayinEvi.Ad</p> <hr>
 </div>
 <a asp-action="Index">Kitap Sayfasına Dön</a>

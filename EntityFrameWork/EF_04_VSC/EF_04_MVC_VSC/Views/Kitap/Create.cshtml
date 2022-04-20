@@ -1,14 +1,18 @@
 @model EF_04_MVC_VSC.Models.Kitaplar
 
+
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Create";
 }
 
-<h1 class="display-3">Kitap Düzenle</h1>
+
+<h1 class="display-3">Yeni Kitap </h1>
 <hr>
+
+
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Create">
             <div class="form-group">
                  <label asp-for="Isbn" class="control-label">Isbn</label>
                 <input type="text"  class="form-control " asp-for="Isbn">
@@ -27,7 +31,7 @@
                     <select asp-for="YazarId" class="form-select form-control" asp-items="ViewBag.Yazar"></select>
                 </div>
                 <div>
-                    <label asp-for="YayinEviId" class="control-label">Tür</label>
+                    <label asp-for="YayinEviId" class="control-label">Yayın Evi</label>
                     <select asp-for="YayinEviId" class="form-select form-control" asp-items="ViewBag.YayinEvi"></select>
                 </div>
 
