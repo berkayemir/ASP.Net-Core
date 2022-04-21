@@ -1,0 +1,10 @@
+Migrations
+----------------
+dotnet ef migrations add isim
+dotnet ef migrations update
+-------------
+scaffold
+--------
+
+
+db first komutları
