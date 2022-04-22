@@ -15644,8 +15644,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\Views\\Category\\Edit.cshtml",
+      "TargetPath": "Views\\Category\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\Views\\Category\\Delete.cshtml",
+      "TargetPath": "Views\\Category\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\Views\\Category\\Details.cshtml",
+      "TargetPath": "Views\\Category\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\Views\\Category\\Create.cshtml",
+      "TargetPath": "Views\\Category\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15656,6 +15676,11 @@
     {
       "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\Views\\Category\\Index.cshtml",
       "TargetPath": "Views\\Category\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\Views\\Author\\Index.cshtml",
+      "TargetPath": "Views\\Author\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

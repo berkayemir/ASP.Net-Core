@@ -5,6 +5,11 @@ dotnet ef migrations update
 -------------
 scaffold
 --------
-
-
+promise
+-------------
+async çalışma
+---------
+postman
+swagger
+------------
 db first komutları

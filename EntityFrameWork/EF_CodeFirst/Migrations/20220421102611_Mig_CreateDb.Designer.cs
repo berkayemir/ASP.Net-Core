@@ -5,12 +5,12 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Models;
+using EF_CodeFirst.Models.Context;
 
 namespace EF_CodeFirst.Migrations
 {
     [DbContext(typeof(Library6Context))]
-    [Migration("20220421110636_Mig_CreateDb")]
+    [Migration("20220421102611_Mig_CreateDb")]
     partial class Mig_CreateDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,10 +49,7 @@ namespace EF_CodeFirst.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("AuthoerId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("AuthorId")
+                    b.Property<int>("AuthorId")
                         .HasColumnType("int");
 
                     b.Property<int>("BookEditionNumber")
@@ -64,10 +61,10 @@ namespace EF_CodeFirst.Migrations
                     b.Property<int>("BookNumberOfPages")
                         .HasColumnType("int");
 
-                    b.Property<int>("BookQuantitiy")
+                    b.Property<int>("BookQuantity")
                         .HasColumnType("int");
 
-                    b.Property<int>("BookYeafOfPublication")
+                    b.Property<int>("BookYearOfPublication")
                         .HasColumnType("int");
 
                     b.Property<int>("CategoryId")
@@ -77,12 +74,6 @@ namespace EF_CodeFirst.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("BookId");
-
-                    b.HasIndex("AuthorId");
-
-                    b.HasIndex("CategoryId");
-
-                    b.HasIndex("PublisherId");
 
                     b.ToTable("Books");
                 });
@@ -157,46 +148,6 @@ namespace EF_CodeFirst.Migrations
                     b.HasKey("PublisherId");
 
                     b.ToTable("Publishers");
-                });
-
-            modelBuilder.Entity("Models.Entities.Book", b =>
-                {
-                    b.HasOne("Models.Entities.Author", "Author")
-                        .WithMany("Books")
-                        .HasForeignKey("AuthorId");
-
-                    b.HasOne("Models.Entities.Category", "Category")
-                        .WithMany("Books")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Models.Entities.Publisher", "Publisher")
-                        .WithMany("Books")
-                        .HasForeignKey("PublisherId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Author");
-
-                    b.Navigation("Category");
-
-                    b.Navigation("Publisher");
-                });
-
-            modelBuilder.Entity("Models.Entities.Author", b =>
-                {
-                    b.Navigation("Books");
-                });
-
-            modelBuilder.Entity("Models.Entities.Category", b =>
-                {
-                    b.Navigation("Books");
-                });
-
-            modelBuilder.Entity("Models.Entities.Publisher", b =>
-                {
-                    b.Navigation("Books");
                 });
 #pragma warning restore 612, 618
         }

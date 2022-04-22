@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Models
+namespace EF_CodeFirst.Models.Entities
 {
     public class Member
     {
@@ -16,5 +16,6 @@ namespace Models
         public DateTime MemberJoinDate { get; set; }
         public string MemberJob { get; set; }
         public bool IsDeleted { get; set; }
+
     }
 }

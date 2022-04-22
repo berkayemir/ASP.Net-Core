@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\EF_CodeFirst.csproj",
+      "projectUniqueName": "C:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\EF_CodeFirst.csproj",
       "projectName": "EF_CodeFirst",
-      "projectPath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\EF_CodeFirst.csproj",
+      "projectPath": "C:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\EF_CodeFirst.csproj",
       "packagesPath": "C:\\Users\\Web ve Mobil Prog\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\obj\\",
+      "outputPath": "C:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Web ve Mobil Prog\\AppData\\Roaming\\NuGet\\NuGet.Config",

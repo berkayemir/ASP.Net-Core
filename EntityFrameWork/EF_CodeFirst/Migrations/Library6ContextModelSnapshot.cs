@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Models;
+using EF_CodeFirst.Models.Context;
 
 namespace EF_CodeFirst.Migrations
 {
@@ -50,10 +50,7 @@ namespace EF_CodeFirst.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("AuthoerId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("AuthorId")
+                    b.Property<int>("AuthorId")
                         .HasColumnType("int");
 
                     b.Property<int>("BookEditionNumber")
@@ -65,10 +62,10 @@ namespace EF_CodeFirst.Migrations
                     b.Property<int>("BookNumberOfPages")
                         .HasColumnType("int");
 
-                    b.Property<int>("BookQuantitiy")
+                    b.Property<int>("BookQuantity")
                         .HasColumnType("int");
 
-                    b.Property<int>("BookYeafOfPublication")
+                    b.Property<int>("BookYearOfPublication")
                         .HasColumnType("int");
 
                     b.Property<int>("CategoryId")
@@ -176,7 +173,9 @@ namespace EF_CodeFirst.Migrations
                 {
                     b.HasOne("Models.Entities.Author", "Author")
                         .WithMany("Books")
-                        .HasForeignKey("AuthorId");
+                        .HasForeignKey("AuthorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Models.Entities.Category", "Category")
                         .WithMany("Books")

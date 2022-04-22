@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Models
+namespace EF_CodeFirst.Models.Entities
 {
     public class Author
     {
@@ -13,6 +13,5 @@ namespace Models
         public DateTime AuthorDateOfBirth { get; set; }
         public bool IsDeleted { get; set; }
         public List<Book> Books { get; set; }
-
     }
 }
