@@ -13,3 +13,12 @@ postman
 swagger
 ------------
 db first komutları
+------------
+repository design pattern
+--------
+interface
+
+IEnumarable
+IQuarable
+ICollection
+------------
