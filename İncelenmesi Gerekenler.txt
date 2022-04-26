@@ -22,3 +22,6 @@ IEnumarable
 IQuarable
 ICollection
 ------------
+database çoklu ilşki
+---------------
+Entitiy framework tutorial.net

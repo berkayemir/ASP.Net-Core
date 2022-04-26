@@ -8,6 +8,10 @@
         public string BookDetailCountry { get; set; }
         public int BookDetailYear { get; set; }
 
+        //FK
+        public int BookId { get; set; }
+        //Navigation Key
+        public Book Book { get; set; }
 
     }
 }

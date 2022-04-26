@@ -16,7 +16,37 @@ namespace EF_2504.DAL.Concrete.EF.Config
             builder.HasKey(bd => bd.BookDetailId);
             builder.Property(bd => bd.BookDetailIsbn).HasDefaultValue("0000-0000-0000");
             builder.Property(bd => bd.BookDetailYear).HasDefaultValue(DateTime.Today.Year);
-            
+
+            builder.HasOne(bd => bd.Book)
+                .WithOne(b => b.BookDetails)
+                .HasForeignKey<BookDetail>(bd => bd.BookId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasData(
+
+                new BookDetail
+                {
+                    BookDetailId = 1,
+                    BookId=1,
+                    BookDetailYear=2021
+
+                },
+                new BookDetail
+                {
+                    BookDetailId = 2,
+                    BookId = 2,
+                    BookDetailYear = 1976
+
+                },
+                new BookDetail
+                {
+                    BookDetailId = 3,
+                    BookId = 3,
+                    BookDetailYear = 1765
+
+                }
+
+                );
 
         }
     }

@@ -17,7 +17,35 @@ namespace EF_2504.DAL.Concrete.EF.Config
             builder.Property(b => b.BookName).IsRequired();
             builder.Property(b => b.Price).HasDefaultValue(0);
             builder.Property(b => b.BookCreatedDate).HasDefaultValue(DateTime.Now);
-            
+
+            builder.HasOne(b => b.Category)
+                .WithMany(c => c.Books)
+                .HasForeignKey(b => b.CategoryId)
+                .OnDelete(DeleteBehavior.Cascade);
+            builder.HasData(
+
+                 new Book
+                 {
+                     BookId=1,
+                     BookName="Yönetim Bilişim Sistemleri",
+                     BookImageUrl= "https://m.media-amazon.com/images/I/41GKz4PqkNL._AC_SY1000_.jpg",
+                     CategoryId=1
+                 },
+                 new Book
+                 {
+                       BookId = 2,
+                       BookName = "A dan Z ye PHP",
+                       BookImageUrl = "https://www.tdk.com.tr/images_buyuk/f14/A-dan-Z-ye-PHP_8614_1.jpg",
+                       CategoryId = 2
+                 },
+                 new Book
+                 {
+                         BookId = 3,
+                         BookName = "Sefiller",
+                         BookImageUrl = "https://img.kitapyurdu.com/v1/getImage/fn:130842/wh:true/wi:800",
+                         CategoryId = 3
+                 }
+                );
 
         }
     }
