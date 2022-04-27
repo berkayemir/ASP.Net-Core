@@ -22,10 +22,10 @@ namespace EF_CodeFirst.Models.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.IsConfigured)//optionsBuilder configüre edilmemişse yani veri tabanı ayarları yapılmamışsa
-            {
-                optionsBuilder.UseSqlServer("Name=ConnectionStrings:LibraryConn");
-            }
+            //if (!optionsBuilder.IsConfigured)//optionsBuilder configüre edilmemişse yani veri tabanı ayarları yapılmamışsa
+            //{
+            //    optionsBuilder.UseSqlServer("Name=ConnectionStrings:HomeLibraryConn");
+            //}
         }
 
     }

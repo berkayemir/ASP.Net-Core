@@ -5798,19 +5798,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Web ve Mobil Prog\\.nuget\\packages\\": {}
+    "C:\\Users\\Berkay Emir\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\EF_CodeFirst.csproj",
+      "projectUniqueName": "C:\\Users\\Berkay Emir\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\EF_CodeFirst.csproj",
       "projectName": "EF_CodeFirst",
-      "projectPath": "C:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\EF_CodeFirst.csproj",
-      "packagesPath": "C:\\Users\\Web ve Mobil Prog\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\obj\\",
+      "projectPath": "C:\\Users\\Berkay Emir\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\EF_CodeFirst.csproj",
+      "packagesPath": "C:\\Users\\Berkay Emir\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Berkay Emir\\Desktop\\ASP.Net-Core\\EntityFrameWork\\EF_CodeFirst\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Web ve Mobil Prog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Berkay Emir\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5871,7 +5871,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }

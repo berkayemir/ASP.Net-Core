@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Sales.Models.Concrete
 {
+    //public class EfEntityRepositoryBaseV2<TEntity, TContext> : IEntityRepositoryV2<TEntity>
+    //    where TEntity : BaseEntity, IEntity, new()
+    //    where TContext : DbContext, new()
+
     public class BaseRepository<T> : IRepository<T> where T:class
     {
         public void Add(T entity)

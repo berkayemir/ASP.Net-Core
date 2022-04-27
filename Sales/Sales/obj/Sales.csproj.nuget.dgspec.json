@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\Sales\\Sales\\Sales.csproj": {}
+    "C:\\Users\\Berkay Emir\\Desktop\\ASP.Net-Core\\Sales\\Sales\\Sales.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\Sales\\Sales\\Sales.csproj": {
+    "C:\\Users\\Berkay Emir\\Desktop\\ASP.Net-Core\\Sales\\Sales\\Sales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\Sales\\Sales\\Sales.csproj",
+        "projectUniqueName": "C:\\Users\\Berkay Emir\\Desktop\\ASP.Net-Core\\Sales\\Sales\\Sales.csproj",
         "projectName": "Sales",
-        "projectPath": "C:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\Sales\\Sales\\Sales.csproj",
-        "packagesPath": "C:\\Users\\Web ve Mobil Prog\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Web ve Mobil Prog\\Desktop\\ASP.Net-Core\\Sales\\Sales\\obj\\",
+        "projectPath": "C:\\Users\\Berkay Emir\\Desktop\\ASP.Net-Core\\Sales\\Sales\\Sales.csproj",
+        "packagesPath": "C:\\Users\\Berkay Emir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Berkay Emir\\Desktop\\ASP.Net-Core\\Sales\\Sales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Web ve Mobil Prog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Berkay Emir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,9 +60,9 @@
               "target": "Package",
               "version": "[5.0.16, )"
             },
-            "Microsoft.IdentityModel.Protocols": {
+            "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[5.6.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

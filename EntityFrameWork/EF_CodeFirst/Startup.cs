@@ -27,7 +27,7 @@ namespace EF_CodeFirst
         {
             services.AddControllersWithViews();
             services.AddDbContext<Library6Context>(options=>options.UseSqlServer(
-                Configuration.GetConnectionString("LibraryConn")
+                Configuration.GetConnectionString("HomeLibraryConn")
             ));
         }
 

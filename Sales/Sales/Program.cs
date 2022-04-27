@@ -11,6 +11,8 @@ namespace Sales
 {
     public class Program
     {
+
+
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
@@ -20,7 +22,10 @@ namespace Sales
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    
                     webBuilder.UseStartup<Startup>();
                 });
+        
+
     }
 }
